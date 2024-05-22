@@ -1,2 +1,5 @@
 .cache
 build
+*.zip
+nvidia-settings
+nvoc

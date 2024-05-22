@@ -17,6 +17,7 @@ set(SOURCES
 )
 add_executable(nvoc ${SOURCES})
 
+target_link_directories(nvoc PRIVATE "nvidia-settings/src/_out")
 target_link_libraries(nvoc "nvidia-ml")
 
 set_property(TARGET nvoc PROPERTY CXX_STANDARD 23)
