@@ -9,8 +9,6 @@ sadly they didn't provide an integration into nvidia-settings so this is why thi
 
 ## build
 
-edit build.sh to set the version if you don't want 555.42.02
-
 just run the build.sh it will output the "nvoc" executable
 
 ## FORMAT
