@@ -40,7 +40,7 @@ void setClocks(nvmlDevice_t * device, long state, long core, long mem, long sm) 
 }
 
 int main(int argc, char ** argv) {
-	if(argc != 4) {
+	if(argc != 5) {
 	usage:
 		printf("format %s [PSTATE or -1 for all] [CORE] [MEM] [SM]\n", argv[0]);
 		return EXIT_FAILURE;
@@ -66,7 +66,7 @@ int main(int argc, char ** argv) {
 		return EXIT_FAILURE;
 	}
 
-	if(state == -1) {
+	if(state != -1) {
 		setClocks(&device, state, core, mem, sm);
 	} else {
 		for(int i = 0; i < 16; i++) {
