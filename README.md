@@ -5,7 +5,7 @@ Nvidia just release the nvidia 555 beta driver which fixes a lot of wayland issu
 But also add nvmlDeviceSetClockOffsets which allows to overclock on wayland.
 sadly they didn't provide an integration into nvidia-settings so this is why this program exists.
 
-# THIS PROJECT WAS RUSHED AND COME WITH ABSOLUTELY NOT GUARANTEE
+# THIS PROJECT WAS RUSHED AND COME WITH ABSOLUTELY NO GUARANTEE
 
 ## build
 
